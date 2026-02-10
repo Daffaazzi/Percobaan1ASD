@@ -15,7 +15,7 @@ public class Array {
             "Bahasa Inggris",
             "Bahasa Indonesia",
             "Praktikum Dasar Pemrograman",
-            "Pengantar Akutansi Manajemen Bisnis",
+            "Keselamatan dan Kesehatan Kerja",
             "Konsep Teknologi Informasi",
             "Agama"
         };
