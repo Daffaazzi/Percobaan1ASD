@@ -62,13 +62,13 @@ public class Array {
         double ipSemester = totalBobotNilai / totalSks;
 
         System.out.println("==================================");
-        System.out.printf("%-40s %-5s %-12s %-12s %-12s%n", 
-            "Matakuliah", "SKS", "Nilai Akhir", "Nilai Huruf", "Bobot Nilai");
+        System.out.printf("%-40s %-12s %-12s %-12s%n", 
+            "Matakuliah", "Nilai Akhir", "Nilai Huruf", "Bobot Nilai");
         System.out.println("==================================");
         
         for (int i = 0; i < matKuliah.length; i++) {
-            System.out.printf("%-40s %-5d %-12.2f %-12s %-12.2f%n",
-                matKuliah[i], sks[i], nilaiAkhir[i], nilaiHuruf[i], bobotNilai[i]);
+            System.out.printf("%-40s %-12.2f %-12s %-12.2f%n",
+                matKuliah[i], nilaiAkhir[i], nilaiHuruf[i], bobotNilai[i]);
         }
 
         System.out.println("==================================");
